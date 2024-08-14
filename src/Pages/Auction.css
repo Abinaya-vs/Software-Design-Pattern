@@ -1,0 +1,166 @@
+.auction-container {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+}
+.aucbut1{
+  background-color:#6a0dad;
+  padding: 10px;
+  margin-right: 20px;
+
+}
+.aucbut{
+  background-color:#6a0dad;
+  padding: 10px;
+  margin-right: 80px;
+}
+.column {
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.book-list {
+  background-color: #f7f7f7;
+  border-right: 1px solid #ddd;
+}
+
+.book-item {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  cursor: pointer;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.book-item:hover {
+  background-color: #eee;
+}
+
+.book-details {
+  background-color: #fff;
+  border-right: 1px solid #ddd;
+}
+
+.book-image {
+  width: 60%;
+  height: auto;
+  margin: 20px 0;
+  border-radius: 20px;
+  margin-left: 100px;
+}
+
+.auction-details {
+  background-color: #f9f9f9;
+}
+
+h2, h3 {
+  margin: 0;
+  padding: 10px 0;
+}
+
+p {
+  margin: 10px 0;
+}
+
+.bid-input {
+  margin-top: 20px;
+  margin-left: -26px;
+}
+.dd{
+  padding-left: 70px;
+  padding-bottom: 70px;
+}
+.bid-input label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.bid-input input {
+  display: block;
+  width: 50%;
+  padding: 10px;
+  margin-bottom: 10px;
+  padding-left: 20px;
+}
+
+.bid-input button {
+  width: 100%;
+  padding: 10px;
+  margin-left: -20px;
+  background-color: #007bff;
+  color: #ce2020;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.bid-input button:hover {
+  background-color: #0056b3;
+
+}
+
+.bidder-list {
+  margin-top: 20px;
+}
+
+.bidder-item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.bidder-item.highlight {
+  background-color: #279881;
+ 
+}
+
+.profile-pic {
+  width: 40px;
+  height: 40px;
+  border-radius: 5%;
+  margin-right: 10px;
+}
+
+.bidder-info {
+  display: flex;
+  justify-content: space-between;
+  width: 10%;
+}
+
+.bidder-name {
+  font-weight: bold;
+}
+
+.bid-amount {
+  color: green;
+}
+
+.auction-container::-webkit-scrollbar {
+  width: 10px;
+}
+
+.auction-container::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.auction-container::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+.auction-container::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+/* Adjusted CSS for bidder profile images */
+.bidder-profile-pic {
+  width: 30px; /* Reduced size */
+  height: 30px; /* Reduced size */
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.topb{
+  margin-top: -50px;
+}

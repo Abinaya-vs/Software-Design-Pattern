@@ -1,0 +1,60 @@
+.form-container {
+  margin-top: -200px;
+    margin: 0 auto;
+    color:#3a0b5c;
+  }
+  
+  .step-indicator {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1em;
+  }
+
+  .step-indicator div {
+    width: 33.33%;
+    text-align: center;
+    padding: 0.5em;
+    border-bottom: 2px solid #ddd;
+  }
+  
+  .step-indicator .active {
+    border-color: #f36;
+    color: #f36;
+  }
+  
+  .form-group {
+    margin-bottom: 1em;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 0.5em;
+  }
+  
+  .form-group input,
+  .form-group select {
+    width: 100%;
+    padding: 0.5em;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .form-actions {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .form-actions button {
+    padding: 0.5em 1em;
+    border: none;
+   background-color: #6a0dad;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .form-actions button[disabled] {
+   background-color:#b2b2b2;
+    cursor: not-allowed;
+  }
+  

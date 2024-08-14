@@ -1,0 +1,163 @@
+.bookss-page-container {
+    padding: 20px;
+  }
+  
+  .bookss-breadcrumb {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  .bookss-details-container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: -100px;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 20px;
+  }
+  
+  .bookss-details {
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  .bookss-image-container {
+    position: relative;
+    margin-right: 70px;
+    margin-left: -170px;
+    margin-bottom: 60px;
+    
+  }
+  
+  .bookss-cover {
+    border-radius: 50px;
+    width: 400px;
+    height: auto;
+    border: 1px solid #ddd;
+  }
+  
+  .bookss-discount-badge {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: red;
+    color: white;
+    padding: 5px;
+    font-size: 14px;
+  }
+  
+  .bookss-info {
+    max-width: 700px;
+    margin-top: 100px;
+  }
+  
+  .bookss-title {
+    font-size: 28px;
+    margin: 10px 0;
+  }
+  
+  .bookss-author {
+    font-size: 18px;
+    color: #777;
+  }
+  
+  .bookss-rating {
+    font-size: 18px;
+    color: #f39c12;
+    margin: 10px 0;
+  }
+  
+  .bookss-price {
+    font-size: 24px;
+    color: #e74c3c;
+    margin: 10px 0;
+  }
+  
+  .bookss-current-price {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .bookss-original-price {
+    text-decoration: line-through;
+    color: #999;
+    margin-right: 10px;
+  }
+  
+  .bookss-discount {
+    color: #27ae60;
+  }
+  
+  .bookss-availability {
+    color: #2ecc71;
+    margin: 10px 0;
+  }
+  
+  .bookss-shipping {
+    color: #555;
+    margin: 10px 0;
+  }
+  
+  .bookss-actions {
+    margin: 20px 0;
+  }
+  
+  .bookss-quantity-selector {
+    margin-bottom: 10px;
+  }
+  
+  .bookss-add-to-cart{
+    display: inline-block;
+    margin-right: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 20px;
+  }
+.bookss-buy-now{
+    display: inline-block;
+    margin-right: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+ 
+  .image-sectionn{
+    margin-top: 130px;
+    padding-left: -1900px;
+  }
+  .bookss-add-to-cart {
+    background-color: #27ae60;
+    color: white;
+    border: none;
+  }
+  
+  .bookss-buy-now {
+    background-color: #e67e22;
+    color: white;
+    border: none;
+  }
+  
+  .bookss-add-to-wishlist {
+    background-color: #ddd;
+    color: #333;
+    border: none;
+  }
+  
+  .bookss-extra-details {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    font-size: 16px;
+  }
+  
+  .bookss-no-book-selected {
+    text-align: center;
+    font-size: 24px;
+    color: #777;
+    padding: 50px;
+  }
+  

@@ -1,0 +1,169 @@
+.signup-container {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin-bottom: 170px;
+    margin-top: -90px;
+    margin-top: -10px;
+}
+
+.signnform{
+ padding-right: 240px;
+ margin-left: -100px;
+ margin-top: 20px;
+}
+
+.signh1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 3rem;
+    font-weight: bolder;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.signh2 {
+    font-size: 1.8rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: lighter;
+    text-align: center;
+    margin-top: -20px;
+    margin-bottom: -15px;
+}
+
+.image2-sec {
+    margin-top: 200px;
+}
+
+.image2-sec img {
+    width: 700px; /* Adjust the width as needed */
+    height: 700px; /* Maintain aspect ratio */
+    margin: 0 auto;
+    margin-left: 50px;
+    margin-top: -250px;
+}
+
+.image-section2sign {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px; /* Add space between the logo and the form */
+    margin-left: -100px;
+}
+
+.image-section2sign img {
+    width: 80px; /* Adjust the width */
+    height: 80px; /* Adjust the height */
+    object-fit: contain; /* Ensure the image maintains aspect ratio */
+    margin-bottom: -40px;
+    margin-left: 100px;
+}
+
+.form-sectionsign {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+    margin-top: -100px;
+}
+
+.form-groupsignn {
+    margin-left: 300px;
+    margin-bottom: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.form-groupsignn label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 1.2em;
+    font-weight: 300;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.form-groupsignn input {
+    padding: 5px;
+    font-size: 1.2em;
+    width: 100%; /* Adjust the width to 100% */
+    max-width: 300px; /* Add a max-width to control the input field size */
+    box-sizing: border-box;
+}
+
+.password-container {
+    position: relative;
+    width: 100%; /* Adjust width to make it consistent with input fields */
+    max-width: 300px; /* Add max-width */
+}
+
+.password-toggle {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.subsign {
+    background-color: #6a0dad;
+    margin-left: 400px;
+    padding: 10px;
+}
+
+.subsign:hover {
+    background-color: #0056b3;
+}
+
+.social-signup {
+    text-align: center;
+    margin-top: -20px;
+}
+
+.social-signup h4 {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.social-buttons {
+    margin-top: -20px;
+    display: flex;
+    justify-content: center;
+    gap: -50px;
+}
+
+.social-buttons button:hover {
+    background-color: #6a0dad;
+}
+
+.social-buttons button {
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    font-size: 1.2em;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.google-btn {
+    background-color: #db4437;
+    color: white;
+}
+
+.facebook-btn {
+    background-color: #3b5998;
+    color: white;
+}
+
+.amazon-btn {
+    background-color: #ff9900;
+    color: white;
+}
+
+.social-buttons button:hover {
+    opacity: 0.9;
+}

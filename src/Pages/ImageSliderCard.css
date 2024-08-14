@@ -1,0 +1,69 @@
+.card-sec {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; Centers the cards horizontally */
+    gap: -1px; /* Adjust the gap between cards */
+    padding: -20px;
+    margin-top: 390px; /* Increased margin-top */
+    padding-left: -500px;
+    padding-right: -500px;
+}
+
+.forh2 {
+       font-size: 2em; /* Adjust the font size as needed */
+    color: #6a0dad;
+    padding-top: 150px; /* Adjust the padding to your preference */
+    padding-left: 0; /* Adjust the padding to your preference */
+    margin-bottom: 20px; /* Adjust the margin to your preference */
+}
+.forh2.h2{
+ color:red;
+   font-size: 2em;
+}
+
+hr {
+    background-color: red;
+    width: 40%;
+    text-align: left;
+    margin-left: 0;
+}
+
+.card {
+    margin-top: 2px;
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px; /* Add padding to the card */
+}
+
+.slider {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+}
+
+.slide-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease-in-out;
+}
+
+.card-content {
+    padding: 16px;
+    text-align: center;
+}
+
+.card-content h2 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+.card-content p {
+    margin: 2px 0 0;
+    font-size: 1em;
+    color: #555;
+}

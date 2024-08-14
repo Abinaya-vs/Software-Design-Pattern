@@ -1,0 +1,84 @@
+.page-container {
+    display: flex;
+    
+  }
+  
+  .sidebar {
+    width: 200px;
+    background: #6a0dad;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    overflow-y: auto; /* Allows vertical scrolling if needed */
+  }
+  
+  .sidebar ul {
+    list-style-type: none; /* Removes bullets or numbers from the list */
+    padding: 0; /* Optional: removes the default padding */
+    margin: 0; /* Optional: removes the default margin */
+  }
+  
+  .sidebar ul li {
+    margin-bottom: 10px; /* Adds space between sidebar items */
+  }
+  
+  .sidebar ul li a {
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .sidebar ul li a:hover {
+    color: #6ac045;
+  }
+  
+  .content {
+    flex: 1;
+    padding: 20px;
+    background: #ffffff; /* Background color to match the rest of the dashboard */
+    border-radius: 10px;
+  }
+  
+  .authors-table, .projects-table {
+    background-color: #b2b2b2;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 40px; /* Adds space between tables */
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background: #1f1f3a;
+    color: #fff; 
+  }
+  
+  tr:hover {
+    background: #ca82fe;
+  }
+  
+  button {
+    background:#6a0dad;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background:#1a0827;
+  }
+  

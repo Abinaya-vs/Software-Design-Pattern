@@ -1,0 +1,110 @@
+.why-sell-books-container {
+    background-color: #ebe2f6;
+    padding: 20px;
+    margin-top: 90px;
+     margin-left: 120px;
+     margin-right: 100px;
+    text-align: center;
+    border-radius: 8px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+  }
+  .imaaa img{
+    max-width: 300px;
+   margin-left: -800px;
+  }
+  .whyyy{
+    margin-top: 600px;
+  }
+  .imaa {
+    padding: 20px;
+    width: 100px; /* Set the desired width */
+    height: 60px; /* Set the desired height */
+    margin-left: 20px;
+    margin-top: -20px;
+  }
+  
+  .imaa img {
+    width: 100%; /* Make the image fill the .imaa container */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  .why-title{
+    margin-top: 200px;
+  }
+  .stepss {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: -300px;
+    margin-bottom: 400px;
+    margin-left: 300px;
+    margin-right: -150px;
+
+  }
+  
+  .step {
+   
+    
+    
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    flex: 1;
+  }
+  .image-section2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px; /* Fixed padding */
+    margin-bottom: -100px;
+    margin-top: -50px;
+    background-image: url("C:\Users\91637\Desktop\anti\myapp\src\Pages\assets\logo2.png");
+
+  }
+  
+  .image-section2 img {
+    max-width: 10%; /* Ensure visibility */
+    max-height: 25%;
+  }
+  
+  .step h2 {
+    color: #6a0dad;
+    margin-bottom: 5px;
+  }
+  
+  .step p {
+    color: #555;
+  }
+  
+  .why-title {
+    font-size: 24px;
+    margin-bottom: 30px;
+    color: #333;
+  }
+  
+  .benefits {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .benefit {
+    text-align: center;
+    width: 22%;
+  }
+  
+  .benefit-icon {
+    font-size: 40px;
+    color:  #6a0dad;
+    margin-bottom: 15px;
+  }
+  
+  .benefit p {
+    color: #333;
+    font-size: 16px;
+  }
+  
+  .benefit strong {
+    color: #333;
+  }
+  

@@ -1,0 +1,164 @@
+
+  .cart-container {
+    display: flex;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    max-width: 1200px;
+    width: 100%;
+    margin-left: 200px;
+    margin-top: 40px;
+    margin-bottom: 90px;
+  }
+  
+  .cart-left,
+  .cart-right {
+    padding: 20px;
+  }
+  
+  .cart-left {
+    flex: 2;
+    border-right: 1px solid #ddd;
+  }
+  
+  .cart-right {
+    margin-top: 40px;
+    flex: 1;
+  }
+  
+  .cart-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .cart-items {
+    margin-top: 20px;
+  }
+  
+  .cart-item {
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .cart-item:last-child {
+    border-bottom: none;
+  }
+  
+  .cart-item-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-right: 20px;
+  }
+  
+  .cart-item-details {
+    flex-grow: 1;
+  }
+  
+  .cart-item-details h2 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  .cart-item-details p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 10px;
+  }
+  
+  .cart-item-controls {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .cart-item-controls select {
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .cart-item-price {
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .remove-item {
+    background-color: #ff4d4d;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .remove-item:hover {
+    background-color: #ff1a1a;
+  }
+  
+  .cart-summary {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .cart-summary h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .cart-summary-details {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .cart-total {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .checkout-button {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .checkout-button:hover {
+    background-color: #218838;
+  }
+  
+  .payment-methods {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 50px;
+  }
+  
+  .payment-methods p {
+    margin-bottom: 10px;
+  }
+  
+  .payment-methods img {
+    margin: 0 5px;
+    width: 50px;
+  }
+  
+  .discount-code {
+    text-align: center;
+  }
+  
+  .discount-code p {
+    font-size: 14px;
+    color: #666;
+  }
+  

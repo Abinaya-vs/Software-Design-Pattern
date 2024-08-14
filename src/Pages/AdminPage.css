@@ -1,0 +1,128 @@
+/* Global Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+  margin: 0;
+  padding: 0;
+}
+
+/* Admin Page Container */
+.admin-page-container {
+  display: flex;
+}
+
+/* Sidebar Styles */
+.sidebar {
+  width: 200px;
+  background: #6a0dad; /* Purple background color */
+  color: #fff;
+  height: 100vh;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* Align items to the top */
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar li {
+  margin: 20px 0; /* Space between items */
+}
+
+.sidebar a {
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  font-size: 1.2rem; /* Slightly larger font */
+  transition: transform 0.2s ease-in-out;
+}
+
+.sidebar a:hover {
+  transform: scale(1.1); /* Slight zoom on hover */
+  color: #ff6347; /* Change color on hover */
+}
+
+/* Content Styles */
+.admin-page-content {
+  flex: 1;
+  padding: 20px;
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Title Style */
+.admin-page-content h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.admin-page-content h1::after {
+  content: '';
+  display: block;
+  width: 50%;
+  height: 4px;
+  background: #ff6347;
+  margin: 15px auto;
+  border-radius: 2px;
+}
+
+/* Table Container */
+.contacts-table-container {
+  overflow-x: auto;
+}
+
+/* Table Styles */
+.contacts-table {
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contacts-table th, .contacts-table td {
+  padding: 15px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+.contacts-table th {
+  background: #6a0dad; /* Purple background color */
+  color: #fff;
+  font-size: 1.1rem;
+}
+
+.contacts-table tr:nth-child(even) {
+  background: #f9f9f9;
+}
+
+.contacts-table tr:hover {
+  background: #f1f1f1;
+}
+
+.contacts-table td {
+  font-size: 0.9rem;
+}
+
+/* Button Styles */
+.contacts-table button {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.contacts-table button:hover {
+  background-color: #d32f2f;
+}

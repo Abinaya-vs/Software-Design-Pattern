@@ -1,0 +1,92 @@
+/* HowToSellBooks.css */
+
+.how-to-sell-books {
+  text-align: center;
+  padding: 3em;
+ margin-top: -200px;
+ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.heading{
+
+  padding-bottom: 20px;
+
+}
+.how-to-sell-books h2 {
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+.qui{
+  text-decoration: none;
+}
+.highlight {
+  color: #6a0dad;
+}
+
+.steps {
+  display: flex;
+  justify-content: space-around;
+  padding-left:200px;
+  padding-right:200px;
+}
+
+.step {
+  text-align: center;
+  max-width: 200px;
+}
+
+.icon-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1em;
+}
+
+.icon {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3em;
+  color: white;
+  padding: 10px;
+}
+
+.android-icon {
+  background-color: #ff9800;
+}
+
+.ad-icon {
+    margin-top: 20px;
+  background-color: #9c27b0;
+}
+
+.help-icon {
+  background-color: #4caf50;
+}
+
+.step-number {
+  position: absolute;
+  bottom: -10px;
+  right: 110px;
+  background-color: white;
+  color: black;
+  border-radius: 50%;
+  padding: 5px;
+  width: 25px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.step h3 {
+  margin-top: 0;
+}
+
+.step p {
+  font-size: 0.9em;
+}

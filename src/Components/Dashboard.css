@@ -1,0 +1,167 @@
+.dashboard-container {
+  display: flex;
+  background: #efeff2;
+  color: #0b0b0b;
+  font-family: Arial, sans-serif;
+  height: 100vh;
+  overflow-x: auto; /* Allow horizontal scrolling if needed */
+}
+
+.sidebar {
+  width: 200px;
+  background: #1f1f3a;
+  color:#fff;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  overflow-y: auto; /* Allow vertical scrolling if needed */
+  text-decoration: none;
+  list-style-type: none;
+}
+ul{
+  list-style-type: none; /* Removes bullets or numbers from the list */
+  padding: 0; /* Optional: removes the default padding */
+  margin: 0; /* Optional: removes the default margin */
+}
+
+.dashboard-main-content {
+  flex-grow: 1;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.dashboard-search input {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+.dashboard-actions button {
+  margin-left: 10px;
+  padding: 10px;
+  border: none;
+  background: #3636b3;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.dashboard-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  flex: 1;
+}
+
+.dashboard-overview {
+  display: flex;
+  justify-content: space-between;
+}
+
+.overview-card {
+  background: #b2b2b2;
+  padding: 5px;
+  margin-left: 10px;
+  margin-left: 10px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex: 1;
+}
+
+.dashboard-main {
+  display: flex;
+  gap: 20px;
+}
+
+.welcome-card,
+.stats-card,
+.referral-card {
+  background: #b2b2b2;
+  padding: 20px;
+  border-radius: 10px;
+  flex: 1;
+}
+
+.projects-orders-section {
+  display: flex;
+  gap: 20px;
+  flex: 1;
+}
+
+.projects-section,
+.orders-section {
+  background: #b2b2b2;
+  padding: 20px;
+  border-radius: 10px;
+  flex: 1;
+  overflow-y: auto; /* Allow vertical scrolling if needed */
+}
+
+.projects-section h3,
+.orders-section h3 {
+  margin: 0;
+}
+
+.project-list,
+.order-list {
+  margin-top: 20px;
+}
+
+.project-item,
+.order-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.project-company {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.project-details {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.project-members img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.project-budget,
+.project-completion {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.completion-bar {
+  height: 10px;
+  background: #6ac045;
+  border-radius: 5px;
+}
+
+.order-details p {
+  margin: 0;
+}
+
+.order-details span {
+  font-size: 12px;
+  color: #171616;
+  margin-bottom: 0;
+}

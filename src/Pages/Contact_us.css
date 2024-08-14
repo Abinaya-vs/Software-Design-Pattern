@@ -1,0 +1,134 @@
+/* src/components/ContactUs.css */
+
+.contact-us {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url('https://i.pinimg.com/736x/42/91/ef/4291ef9d28ddbb65e1d8ac2a2a632642.jpg') no-repeat center center/cover;
+  padding: 100px 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.branding img{
+  margin-top: -60px;
+  width: 90px;
+  height: 90px;
+}
+.contact-form-container {
+  display: flex;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  overflow: hidden;
+  width: 800px;
+  max-width: 100%;
+  max-height: 600px;
+  margin-top: -200px;
+}
+
+.left-side {
+  background: url('https://i.pinimg.com/736x/70/a0/69/70a069078ff21dde9cc9d53a02d0d514.jpg') no-repeat center center/cover;
+  width: 50%;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.branding {
+  color: #fff;
+}
+
+.branding .logo {
+  width: 100px;
+  margin-bottom: 20px;
+}
+
+.social-icons a {
+  color: #fff;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.right-side {
+  padding: 40px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.cont {
+  
+  padding-top: 0;
+  margin-top: 0;
+  flex-grow: 1;
+}
+
+.right-side h2 {
+  margin-bottom: 10px;
+  font-size: 24px;
+  color: #333;
+}
+
+.right-side p {
+  margin-bottom: 20px;
+ 
+  color: #777;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: -70px;
+}
+
+
+
+.input-group input, 
+.input-group textarea {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin-left: 40px;
+  padding: 10px;
+  margin-bottom: 90px;
+  border: 1px solid  #6a0dad;
+  border-radius: 5px;
+  
+}
+
+.input-group textarea {
+  margin-left: 40px;
+  margin-right: -200px;
+  padding: 10px;
+  margin-bottom: 90px;
+  border: 1px solid #6a0dad;
+  border-radius: 5px;
+  outline: none;
+}
+
+.contbut {
+  margin-left: 90px;
+  width: 30%;
+  height: 30px;
+  background: #6a0dad;
+  color: #fff;
+  padding: 13px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: auto; /* Added this line */
+  margin-bottom: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+button .icon {
+  margin-right: 10px;
+}
+
+button:hover {
+  background: #0056b3;
+}
